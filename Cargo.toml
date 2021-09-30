@@ -1,0 +1,19 @@
+[package]
+name = "ws_async"
+version = "0.0.1"
+authors = ["peterholko@gmail.com"]
+edition = "2018"
+
+[dependencies]
+tungstenite = "0.15.0"
+async-tungstenite = {version = "0.15.0", features = ["async-std-runtime"]}
+futures = "0.3"
+url = "2.0.0"
+env_logger = "0.9"
+async-std = { version = "1.0", features = ["attributes", "unstable"] }
+bevy = { version = "0.5.0"}
+
+crossbeam-channel = "0.5.1"
+#serde = { version = "1.0", features = ["derive"] }
+#serde_json = "1.0"
+#tiled = "0.9.5"
